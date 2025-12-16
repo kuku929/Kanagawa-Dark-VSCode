@@ -1399,7 +1399,7 @@
 			}
 		},
 		{
-			"scope": "variable.function, variable.annotation, meta.function-call",
+			"scope": "variable.function, variable.annotation, meta.function-call.generic",
 			"settings": {
 				"foreground": "#8BA4B0"
 			}
