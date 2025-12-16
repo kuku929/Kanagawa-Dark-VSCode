@@ -1,0 +1,21 @@
+{
+  "name": "kanagawa-dark",
+  "displayName": "Kanagawa Dark",
+  "description": "Kanagawa dark like NeoVim",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kanagawa Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kanagawa Dark-color-theme.json"
+      }
+    ]
+  }
+}
