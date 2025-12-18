@@ -936,6 +936,12 @@
 			}
 		},
 		{
+			"scope": ["meta.function keyword.operator.assignment"],
+			"settings": {
+				"foreground": "#a6a69c"
+			}
+		},
+		{
 			"scope": [
 				"meta.template.expression"
 			],
@@ -985,7 +991,7 @@
 		{
             "scope": "entity.name.filename",
 			"settings": {
-            "foreground": "var(yellow)"
+            "foreground": "#e7db74"
 			}
         },
 
@@ -1079,12 +1085,6 @@
 			"scope": "invalid.deprecated",
 			"settings": {
 				"foreground": "#F44747"
-			}
-		},
-		{
-			"scope": "meta.structure.dictionary.json string.quoted.double.json",
-			"settings": {
-				"foreground": "#CFCFC2"
 			}
 		},
 		{
@@ -1342,16 +1342,6 @@
 			}
 		},
 		{
-        	// =, >, <, <>, == etc...
-        	"name": "Operator",
-        	"scope": "keyword.operator, punctuation.definition.generic",
-			"settings": {
-				"foreground": "var(DragonOrange)",
-				"font_style": "bold"
-			},
-        },
-
-		{
 			"scope": "entity.name.function.member",
 			"settings": {
 				"foreground": "#8ba4b0",
@@ -1439,12 +1429,6 @@
 			"scope": "invalid.deprecated",
 			"settings": {
 				"foreground": "#FEFEFA"
-			}
-		},
-		{
-			"scope": "meta.structure.dictionary.json string.quoted.double.json",
-			"settings": {
-				"foreground": "#D8D8C9"
 			}
 		},
 		{
@@ -1536,6 +1520,12 @@
 			"settings": {
 				"foreground": "#D8D87E"
 			}
-		}
+		},
+		{
+			"scope": "meta.structure.dictionary.value string.quoted.double.json",
+			"settings": {
+				"foreground": "#8a9a7b"
+			}
+		},
 	]
 }
