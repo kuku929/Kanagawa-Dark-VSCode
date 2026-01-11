@@ -1396,7 +1396,7 @@
 		},
 		{
 			// python does not have definition
-			"scope": "entity.name.function.definition, entity.name.function.python",
+			"scope": "entity.name.function.definition, entity.name.function.python, entity.name.type.class",
 			"settings": {
 				"foreground": "#96CF64",
 				"fontStyle": ""
