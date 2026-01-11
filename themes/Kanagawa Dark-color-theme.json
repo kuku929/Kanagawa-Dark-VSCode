@@ -1305,6 +1305,12 @@
 			}
 		},
 		{
+			"scope": "keyword.other.import.java, keyword.other.package.java",
+			"settings": {
+				"foreground": "#95bfbb"
+			}
+		},
+		{
 			"scope": "keyword, keyword.operator.cast",
 			"settings": {
 				"foreground": "#E46876"
