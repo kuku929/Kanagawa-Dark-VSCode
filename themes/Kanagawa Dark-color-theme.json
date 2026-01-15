@@ -984,8 +984,7 @@
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#66D9EF",
-				"fontStyle": "italic"
+				"foreground": "#95bfbb",
 			}
 		},
 		{
@@ -1336,13 +1335,7 @@
 			}
 		},
 		{
-			"scope": "storage.type",
-			"settings": {
-				"foreground": "#8BA4B0"
-			}
-		},
-		{
-			"scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)",
+			"scope": "entity.name",
 			"settings": {
 				"foreground": "#8ba4b0"
 			}
@@ -1379,7 +1372,7 @@
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#A292A3",
-				"fontStyle": "italic"
+				// "fontStyle": "italic"
 			}
 		},
 		{
